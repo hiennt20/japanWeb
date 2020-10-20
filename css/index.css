@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    border: solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-transform: uppercase;
+   
+}
+.main-menu{
+    width: 75%;
+}
+.main-menu ul{
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+}
+img{
+   max-width: 100%;
+   /* height: 100%; */
+}
+
+/* css cho phan phim */
+.contanier{
+    width: 1000px;
+    margin: auto;
+    border: solid brown;
+}
+.slide-film{
+    border: solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.slide-item{
+    border:solid green;
+    width: 24%;
+    /* height: 350px; */
+}
+.sub-name{
+    border:solid brown;
+    
+}
+.image{
+    border:solid blueviolet;
+    max-height: 280px;
+    overflow: hidden;
+}
+.name{
+    border:solid red;
+    padding: 10px;
+}
+
+/* phần tài liệu và jlpt */
+.section-document-jlpt{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.document{
+    border: solid brown;
+    /* height: 800px; */
+    width: 45%;
+}
+.item-name{
+    width: 100%;
+    /* height: 300px; */
+    border: solid green;
+}
+.main-document{
+    width: 100%;
+    height: 250px;
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+}
+.do-image{
+    border: solid black;
+    height: 100%;
+    width: 50%;
+}
+.do-title{
+    border: solid yellow;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.do-title-name{
+    border: solid grey;
+    height: 30%;
+}
+.do-title-icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    width: 100%;
+}
+
+
+.jlpt{
+    border: solid royalblue;
+    /* height: 800px; */
+    width: 45%;
+}
